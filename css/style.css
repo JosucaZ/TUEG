@@ -8,7 +8,7 @@ html {
 body {
     width: 100%;
     background-color: #343A40 !important;
-
+    zoom: 1
 
 }
 header{
@@ -762,6 +762,12 @@ a {
         margin: unset;
         margin-right: 20%;
     }
+    body {
+        zoom: 0.75;
+
+
+    }
+
 }
 /*----------------------------------------------------------------------------------*/
 
