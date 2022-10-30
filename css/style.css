@@ -294,7 +294,7 @@ a {
 
 
     .carousel {
-        width: 100%;
+        width: 100% !important;
         height: unset;
     }
 
