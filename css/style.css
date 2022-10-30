@@ -1,0 +1,858 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+html {
+    min-width: 513px;
+}
+body {
+    width: 100%;
+    background-color: #343A40 !important;
+
+
+}
+header{
+    width: 100%;
+    height: 50px; 
+    background-color: #f7f7f7;
+}  
+
+a {
+    text-decoration: none !important;
+ 
+
+}
+
+/*nav bar*/
+.navbarra {
+    min-width: 360px !important;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+    .butao {
+        margin-right: -10%;
+
+
+    }
+    .mr-auto, .mx-auto {
+        margin: auto!important;
+    }
+    .navbar-brandMEU {
+        font-weight: 550;
+    }
+    li.nav-item.active a{
+        color: rgb(254, 154, 4) !important;
+    }   
+    .nav-link:hover{
+        text-decoration: overline rgb(254, 154, 4) !important;
+    }
+/*nav fim*/    
+
+
+.content {
+    max-width: 1920px;
+    height: 860px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+
+
+}
+
+/*----NOME-------*/
+#nome{
+    margin: auto;
+    width: 80%;
+    height: 78px;
+    display: none;
+    justify-content: center;
+    background-color: #343A40;
+    /*border-top: 7px solid rgba(0, 0, 0, 0.089);*/
+}
+    #nome .h2 {
+        display: none;
+        margin-top: 25px;
+        font-size: 30px !important;
+        width: 100px;
+    }
+
+    #nome h1{
+        margin-top: 30px;
+        float: left;
+        text-align: center;
+        width: 350px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+    }
+    #nome img{
+
+        border-radius: 50%;
+        transform: scale(0.75);
+        float: left;
+    }
+    #nome ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #nome li {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    #nome li:not(:hover){
+        transform: scale(1.0);
+        transition: .2s;
+    }
+    #nome li:hover {
+        transform: scale(1.1);
+        transition: .2s;
+    }
+    #nome li img {
+        height: 100%;
+        border-radius: 0px;
+        transform: scale(1);
+        margin: 0px;
+    }
+    /*-DENTRO-DA-NAV-*/
+#nome2 {
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    background-color: #343A40;
+    /*border-top: 7px solid rgba(0, 0, 0, 0.089);*/
+}
+    #nome2 .h22 {
+        margin-top: 25px;
+        font-size: 30px !important;
+        width: 100px;
+    }
+
+    #nome2 h1{
+        margin-top: 30px;
+        float: left;
+        text-align: center;
+        width: 350px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+    }
+    #nome2 img{
+        border-radius: 50%;
+        transform: scale(0.75);
+        float: left;
+    }
+/*----NOME-FIM-------*/
+
+
+
+
+/*SEMANA*/
+#semana{
+    width: 65%;
+    height: 815px;
+    background-color: #e32636;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+}
+#semanaConteudo{
+    margin: auto;
+    width: 100%;
+    height: 815px;
+    max-width: 1200px;
+    float: left;
+    display: flex;
+    align-items: center;
+
+}
+    #semanaLateral{
+        width: 50%;
+        float: left;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+    }
+    #conteudoLateral{
+        margin-top: 30px;
+        width: 90%;
+    }
+    #imagemSemana{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        float:left;
+        width: 320px;
+        height: 550px;
+        margin: auto;
+        
+    }
+    #imagemSemana img{
+        height: 70%;
+        box-shadow: 0 0 3em #000000;
+        display: flex;
+        align-self: center;
+        border-radius: 5px;
+    }
+    #dataSemana{
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    #tituloSemana{
+        margin: auto;
+        width: 150px;
+        height: 90px;
+        font-size: 80px;
+        text-shadow: 0px 0px 0px black, 0 0 1em black, 0 0 0.2em black;
+        user-select: none;
+    }
+    #homenagem{
+        font-size: 30px;
+    }
+    #imagemSemana img:hover, #tituloSemana:hover{
+        transform: scale(1.05);
+        transition: .2s;
+    }
+    #imagemSemana img:not(:hover), #tituloSemana:not(:hover) {
+        transform: scale(1.0);
+        transition: .2s;
+    }
+    #botaoMes{
+        margin-top: 25px;
+        background: rgb(255,255,255);
+        border-color: rgb(255, 255, 255);
+        border-radius: 14px !important;
+        height: 50px;
+        font-weight: bolder;
+        box-shadow: 2px 2px 0 1px black;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        cursor: pointer;
+        border-style: solid;
+    }
+    #botaoMes:active{
+        outline: 0px;
+        outline-offset: 0px;
+        box-shadow: 0 0 0 0 black, inset 3px 3px 3px black;
+        transform: translate(3px, 3px);
+    }
+    #botaoMes:focus{
+        outline: 0px;
+        outline-offset: 0px;
+    }
+/*semana fim*/
+
+
+
+
+
+
+
+
+/*-Spotify*/
+    #spotify{
+  
+        width: 35%;
+        height: 500px;
+        margin-top: 83px;
+        background: rgb(4,4,4);
+        background: linear-gradient(0deg, rgba(4,4,4,1) 0%, rgba(0,155,255,1) 100%, rgba(255,255,255,1) 100%);
+        float: left;
+        overflow: hidden;
+    }
+    #spotifyConteudo{
+        max-width: 800px;
+        margin: auto;
+        width: 100%;
+        height: 500px;
+    }
+    #sptLogoPai {
+        margin: auto;
+        width: 300px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .spotifyLogo {
+        margin: auto;
+        transform: scale(1);
+        width: 300px;
+    }
+
+    #spotBaixo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /**/
+    .pntAutorais {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    .pntAutorais img:hover {
+        transform: scale(1.1);
+        transition: .2s;
+    }
+    .pntAutorais img:not(:hover) {
+        transition: .2s;
+    }
+    .pntAutorais:hover > .textAut { 
+        margin-top: 10px !important;
+        transition: .2s;
+    }
+    .pntAutorais:not(:hover) > .textAut {
+        transition: .2s;
+    }
+
+    .pntAutorais img {
+        height: 70%;
+        width: 70%;
+        background-color: black;
+        border-radius: 5px;
+    }
+    .textAut {
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;;
+        font-size: 25px;
+        font-weight: bolder;
+        color: whitesmoke;
+        text-align: center;
+        width: 300px;
+        margin-top: 10px !important;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    /**/
+    .pntInterp {
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    .pntInterp img:hover {
+        transform: scale(1.1);
+        transition: .2s;
+    }
+    .pntInterp img:not(:hover) {
+        transition: .2s;
+    }
+    .pntInterp:hover > .textInt {
+        margin-top: 13px !important;
+        transition: .2s;
+    }
+    .pntInterp:not(:hover) > .textInt {
+        transition: .2s;
+    }
+
+    .pntInterp img {
+        height: 70%;
+        width: 70%;
+        background-color: black;
+        border-radius: 5px;
+    }
+    .textInt {
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;;
+        font-size: 25px;
+        font-weight: bolder;
+        color: whitesmoke;
+        text-align: center;
+        width: 300px;
+        margin: 0px !important;
+        margin-left: 0px !important;
+        margin-top: 13px !important;
+        line-height: 30px;
+        user-select: none;
+        pointer-events: none;
+    }
+/*-Spotify-FIM*/
+
+
+/*curiosidade*/
+
+
+
+#curiosidades{
+    max-width: 1000px;
+    width: 35%;
+    height: 276px;
+    background-color: #f3c846;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-image: url("/Imagens/atabques.png");
+    background-repeat: no-repeat;
+    background-position: 50% 175px;
+    
+
+}
+
+
+.TitAtab {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    color: white;
+    margin: 10px auto;
+    text-shadow: 0px 0px 0px black, 0 0 1em black, 0 0 0.01em black;
+
+
+}
+
+#curiosidades div {
+    width: 100%;
+    padding: 0px 10px;
+    height: 90px;
+    
+    border-radius: 5px;
+
+
+
+}
+.SubTitAtab {
+    font-size: 18px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-shadow: 0px 0px 0px black, 0 0 1em black, 0 0 0.1em black;
+}
+
+#curiosidades a {
+    font-size: 34px;
+    margin: auto;
+}
+
+
+
+#curiosidades button {
+    background: rgb(255,255,255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    height: 50px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 0 1px black;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+    border-style: solid;
+}
+#curiosidades button:active {
+    outline: 0px;
+    outline-offset: 0px;
+    box-shadow: 0 0 0 0 black, inset 3px 3px 3px black;
+    transform: translate(3px, 3px);
+}
+#curiosidades button:focus {
+    outline: 0px;
+    outline-offset: 0px;
+}
+
+
+
+/*curiosidade fim*/
+
+
+
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 1650px) {
+    #semanaLateral{
+        width: 100%;}
+    #semana{
+        flex-direction: column;
+        width: 60%;
+    }
+    #semanaConteudo{
+        flex-direction: column;
+    }
+    #spotify, #curiosidades {
+        width: 40%;
+    }
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 1530px) {
+    /*spotify*/
+    #spotify {
+        height: 420px;
+    }    
+    .pntAutorais {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 8px;
+    }
+    .pntInterp {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 8px;
+    }
+    .textAut {
+        font-size: 20px;
+        margin-left: -25px !important;
+    }
+    .textInt {
+        width: 250px;
+        font-size: 20px;
+    }
+    /*fim*/
+
+    #curiosidades {
+        height: 356px;
+    }
+
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+    #semana, #curiosidades, #spotify  {
+    width: 100%;}
+    #semanaLateral, #imagemSemana  {
+        width: 90%;}
+    #semana{
+        flex-direction: column;
+    }
+        
+    
+    /*SPOTIFY*/
+        #spotify {
+            margin-top: 0px;
+            height: 660px;
+        }
+        /**/
+        .pntAutorais {
+            width: 400px;
+            height: 400px;
+            margin-bottom: 8px;
+        }
+        .pntAutorais:hover {
+            width: 400px;
+            transition: .2s;
+        }
+        .pntAutorais:not(:hover) {
+            transition: .2s;
+        }
+        .pntAutorais:hover > .textAut {
+            font-size: 35px;
+            margin-top: 20px !important;
+            transition: .2s;
+        }
+        .pntAutorais:not(:hover) > .textAut {
+            font-size: 35px;
+            transition: .2s;
+        }
+        .pntAutorais img {
+            height: 90%;
+            width: 90%;
+        }
+        .textAut {
+            margin-left: 60px !important;
+        }
+        /**/
+        .pntInterp {
+            width: 400px;
+            height: 400px;
+        }
+        .pntInterp:hover {
+            width: 400px;
+            transition: .2s;
+        }
+        .pntInterp:not(:hover) {
+            transition: .2s;
+        }
+        .pntInterp:hover > .textInt {
+            font-size: 35px;
+            margin-top: 25px !important;
+            transition: .2s;
+        }
+        .pntInterp:not(:hover) > .textInt {
+            font-size: 35px;
+            transition: .2s;
+        }
+        .pntInterp img {
+            height: 90%;
+            width: 90%;
+        }
+        .textInt {
+            margin-top: 15px !important;
+            width: 350px;
+            margin: 0px;
+            margin-left: 25px !important;
+
+        }
+    /*fim*/
+    .navbar-brandMEU {
+        display: none !important;
+    }
+
+
+    /*nome*/
+        #nome {
+            display: flex;
+            width: 320px;
+        }
+        #nome img{
+            margin-left: 20px;
+        }
+        
+        #nome2 {
+            display: none;
+        }
+        #nome h1,#nome2 .h2 {
+            margin-top: 20px;
+            width: 289px;
+            
+        }
+    /*fim*/
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 830px) {
+
+    #spotify {
+        height: 1130px;
+    }
+    #spotBaixo {
+        flex-direction: column;
+    }
+    .pntAutorais {
+        margin-bottom: 40px;
+    }
+    .textAut {
+        margin-left: 50px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 753px) {
+    
+    /*nome*/
+    #nome h1,#nome2 .h22 {
+        display: none;
+    }
+    #nome .h2,#nome2 .h22 {
+        display: block;
+    }
+    /*nome-fim*/
+    .butao {
+        margin-right: -15%;
+    }
+    #curiosidade {
+        font-size: 15px !important;
+    }
+
+
+
+
+    /*FOOTER*/
+    footer {
+        height: 320px !important;
+
+
+    }
+   
+    .meio {
+        height: 220px !important;
+    }
+   #escritaFooter {
+        width: 370px !important;
+        height: 200px;
+        margin: auto;
+        flex-direction: column;
+        padding-top: 14px !important;
+    }
+    #infCont {
+        height: 60px !important;
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+   
+
+
+
+
+    /*FIM*/
+
+
+
+
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+    /*SPOTIFY*/
+        #spotify {
+            margin-top: 0px;
+            height: 900px;
+        }
+        #spotBaixo {
+            flex-direction: column;
+        }
+        /**/
+        .pntAutorais {
+            width: 250px;
+            height: 250px;
+            margin-bottom: 8px;
+        }
+        .pntAutorais img {
+            height: 100%;
+            width: 100%;
+        }
+        .textAut {
+            margin-left: -20px !important;
+        }
+        .pntAutorais:hover {
+            width: 250px;
+            transition: .2s;
+        }
+        .pntAutorais:not(:hover) {
+            transition: .2s;
+        }
+        .pntAutorais:hover > .textAut {
+            margin-top: 20px !important;
+            font-size: 35px;
+            transition: .2s;
+        }
+        .pntAutorais:not(:hover) > .textAut {
+            font-size: 35px;
+            transition: .2s;
+        }
+        /**/
+        .pntInterp {
+            margin-top: 80px;
+            width: 250px;
+            height: 250px;
+        }
+        .pntInterp img {
+            height: 100%;
+            width: 100%;
+        }
+        .textInt {
+            width: 300px;
+            margin: 0px;
+            margin-left: -20px !important;
+            margin-top: 30px;
+        }
+        .pntInterp:hover {
+            width: 250px;
+            transition: .2s;
+        }
+        .pntInterp:not(:hover) {
+            transition: .2s;
+        }
+        .pntInterp:hover > .textInt {
+            margin-top: 30px !important;
+            font-size: 35px;
+            transition: .2s;
+        }
+        .pntInterp:not(:hover) > .textInt {
+            margin-top: 20px !important;
+            font-size: 35px;
+            transition: .2s;
+        }
+    /*fim*/
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 514px) {
+    #nome {
+        margin: unset;
+        margin-right: 20%;
+    }
+}
+/*----------------------------------------------------------------------------------*/
+
+
+
+/*FOOTER*/
+footer{
+    clear: both;
+    height: 290px;
+    width: 100%;
+
+    background-color: #2a2d30;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+footer .ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    width: 150px;
+    padding: 0px !important;
+}
+.lista {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.lista:not(:hover){
+    transform: scale(1.0);
+    transition: .2s;
+}
+.lista:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+.lista img {
+    height: 100%;
+    border-radius: 0px;
+    transform: scale(1);
+    margin: 0px;
+
+}
+
+footer {
+    height: 250px;
+}
+footer .meio {
+    background-color: #343a40;
+    margin: 0px;
+    width: 100%;
+    height: 150px;
+
+}
+
+    #escritaFooter {
+        display: flex;
+        padding-top: 25px;
+        margin: auto;
+        width: 700px;
+        height: 200px;
+        justify-content: space-between;
+        flex-direction: raw;
+    }
+
+        #endr {
+            width: 380px;
+            height: 100px;
+            align-items: center;
+        }
+
+        footer h6{
+            font-size: 20px;
+            padding-bottom: 0px;
+        }
+        #infCont {
+            
+            width: 300px;
+            height: 100px;
+            align-items: center;
+        }
+#copr {
+    margin-top: 15px;
+    font-size: 10px;
+
+}
+
+
+/*FOOTER-FIM*/
