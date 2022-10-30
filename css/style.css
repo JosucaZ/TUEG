@@ -294,7 +294,7 @@ a {
 
 
     .carousel {
-        width: 100% !important;
+        width: 100%;
         height: unset;
     }
 
@@ -485,7 +485,28 @@ a {
 /*----------------------------------------------------------------------------------*/
 @media screen and (max-width: 1530px) {
     /*spotify*/
-
+    #spotify {
+        height: 420px;
+    }    
+    .pntAutorais {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 8px;
+    }
+    .pntInterp {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 8px;
+    }
+    .textAut {
+        font-size: 20px;
+        margin-left: -25px !important;
+    }
+    .textInt {
+        width: 250px;
+        font-size: 20px;
+    }
+    /*fim*/
 
     #curiosidades {
         height: 356px;
@@ -501,9 +522,17 @@ a {
     #semana{
         flex-direction: column;
     }
-        
+    #tituloSemana {
+        font-size: 65px;
+        width: 527px;
+
+    }    
     
+
     /*SPOTIFY*/
+    #spotify {
+        margin: 0px !important;
+    }
 
     .navbar-brandMEU {
         display: none !important;
