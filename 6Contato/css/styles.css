@@ -1,0 +1,359 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+html {
+    min-width: 513px;
+}
+body {
+    width: 100%;
+
+
+}
+header{
+    width: 100%;
+    height: 50px; 
+    background-color: #f7f7f7;
+}  
+
+
+
+/*nav bar*/
+.navbarra {
+    min-width: 360px !important;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+    .butao {
+        margin-right: -10%;
+
+
+    }
+    .mr-auto, .mx-auto {
+        margin: auto!important;
+    }
+    .navbar-brandMEU {
+        font-weight: 550;
+    }
+    li.nav-item.active a{
+        color: rgb(254, 154, 4) !important;
+    }   
+    .nav-link:hover{
+        text-decoration: overline rgb(254, 154, 4) !important;
+        transition: .3s;
+    }
+/*nav fim*/
+
+/*----NOME-------*/
+#nome{
+    margin: auto;
+    width: 80%;
+    height: 78px;
+    display: none;
+    justify-content: center;
+    background-color: #343A40;
+    /*border-top: 7px solid rgba(0, 0, 0, 0.089);*/
+}
+    #nome .h2 {
+        display: none;
+        margin-top: 25px;
+        font-size: 30px !important;
+    }
+
+    #nome h1{
+        margin-top: 30px;
+        float: left;
+        text-align: center;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+    }
+    #nome img{
+
+        border-radius: 50%;
+        transform: scale(0.75);
+        float: left;
+    }
+    #nome ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #nome li {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    #nome li:not(:hover){
+        transform: scale(1.0);
+        transition: .2s;
+    }
+    #nome li:hover {
+        transform: scale(1.1);
+        transition: .2s;
+    }
+    #nome li img {
+        height: 100%;
+        border-radius: 0px;
+        transform: scale(1);
+        margin: 0px;
+    }
+    /*-DENTRO-DA-NAV-*/
+#nome2 {
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    background-color: #343A40;
+    /*border-top: 7px solid rgba(0, 0, 0, 0.089);*/
+}
+    #nome2 .h22 {
+        margin-top: 25px;
+        font-size: 30px !important;
+        width: 100px;
+    }
+
+    #nome2 h1{
+        margin-top: 30px;
+        float: left;
+        text-align: center;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+    }
+    #nome2 img{
+        border-radius: 50%;
+        transform: scale(0.75);
+        float: left;
+    }
+/*----NOME-FIM-------*/
+
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 1650px) {
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 1530px) {
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+    
+    .navbar-brandMEU {
+        display: none !important;
+    }
+
+ /*nome*/
+ #nome {
+    display: flex;
+    width: 320px;
+}
+#nome img{
+    margin-left: 20px;
+}
+
+#nome2 {
+    display: none;
+}
+.tamanhoNome {
+    width: 170px !important;
+}
+#nome h1,#nome2 .h2 {
+    margin-top: 25px;
+    font-weight: 1000;
+    font-size: 25px;
+}
+/*fim*/
+
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 830px) {
+}
+
+@media screen and (max-width: 753px) {
+    
+    /*nome*/
+    #nome h1,#nome2 .h22 {
+        display: none;
+        margin-top: 20px !important;
+    }
+    #nome .h2,#nome2 .h22 {
+        display: block;
+    }
+    .tamanhoNome {
+        width: 250px !important;
+    }
+    /*nome-fim*/
+    
+    
+    /*FOOTER*/
+    footer {
+        height: 320px !important;
+
+
+    }
+   
+    .meio {
+        height: 220px !important;
+    }
+   #escritaFooter {
+        width: 370px !important;
+        height: 200px;
+        margin: auto;
+        flex-direction: column;
+        padding-top: 14px !important;
+    }
+    #infCont {
+        height: 60px !important;
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    /*FIM*/
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 514px) {
+    #nome {
+        margin: unset;
+        margin-right: 20%;
+    }
+
+}
+/*----------------------------------------------------------------------------------*/
+
+
+
+/*FOOTER*/
+footer{
+    clear: both;
+    height: 290px;
+    width: 100%;
+
+    background-color: #2a2d30;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+footer .ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    width: 150px;
+    padding: 0px !important;
+}
+.lista {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.lista:not(:hover){
+    transform: scale(1.0);
+    transition: .2s;
+}
+.lista:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+.lista img {
+    height: 100%;
+    border-radius: 0px;
+    transform: scale(1);
+    margin: 0px;
+
+}
+
+footer {
+    height: 250px;
+}
+footer .meio {
+    background-color: #343a40;
+    margin: 0px;
+    width: 100%;
+    height: 150px;
+
+}
+
+    #escritaFooter {
+        display: flex;
+        padding-top: 25px;
+        margin: auto;
+        width: 700px;
+        height: 200px;
+        justify-content: space-between;
+        flex-direction: raw;
+    }
+
+        #endr {
+            width: 380px;
+            height: 100px;
+            align-items: center;
+        }
+
+        footer h6{
+            font-size: 20px;
+            padding-bottom: 0px;
+        }
+        #infCont {
+            
+            width: 300px;
+            height: 100px;
+            align-items: center;
+        }
+#copr {
+    margin-top: 15px;
+    font-size: 10px;
+
+}
+
+
+/*FOOTER-FIM*/
+
+
+/* a mudar em cada pagina */
+.tamanhoNome {
+    width: 80px !important;
+    font-size: 25px !important;
+    margin-top: 25px !important;
+}
+
+
+
+/**/
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.conteudo {
+    width: 100%;
+    height: 669px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
