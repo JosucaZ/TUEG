@@ -208,6 +208,8 @@ a {
     #dataSemana{
         margin-top: 40px;
         font-size: 25px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 1px black, 0 0 0em black, 0 0 0.01em black;;
     }
     #tituloSemana{
         margin: auto;
