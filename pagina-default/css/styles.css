@@ -3,11 +3,12 @@
 
 }
 html {
-    min-width: 513px;
+    min-width: 400px;
 }
 body {
     width: 100%;
-
+    background-color: #343A40 !important;
+    zoom: 1
 
 }
 header{
@@ -16,7 +17,11 @@ header{
     background-color: #f7f7f7;
 }  
 
+a {
+    text-decoration: none !important;
+ 
 
+}
 
 /*nav bar*/
 .navbarra {
@@ -42,7 +47,17 @@ header{
     .nav-link:hover{
         text-decoration: overline rgb(254, 154, 4) !important;
     }
-/*nav fim*/
+/*nav fim*/    
+
+
+.content {
+    max-width: 1920px;
+    height: 860px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+
+
+}
 
 /*----NOME-------*/
 #nome{
@@ -140,42 +155,39 @@ header{
 
 
 
-/*----------------------------------------------------------------------------------*/
-@media screen and (max-width: 1650px) {
-}
-/*----------------------------------------------------------------------------------*/
-@media screen and (max-width: 1530px) {
-}
-/*----------------------------------------------------------------------------------*/
+
+
+
 @media screen and (max-width: 992px) {
-    
-    .navbar-brandMEU {
+
+
+
+   .navbar-brandMEU {
         display: none !important;
     }
 
- /*nome*/
- #nome {
-    display: flex;
-    width: 320px;
-}
-#nome img{
-    margin-left: 20px;
+
+    /*nome*/
+        #nome {
+            display: flex;
+            width: 320px;
+        }
+        #nome img{
+            margin-left: 20px;
+        }
+        
+        #nome2 {
+            display: none;
+        }
+        #nome h1,#nome2 .h2 {
+            margin-top: 20px;
+            width: 289px;
+            
+        }
+    /*fim*/
+
 }
 
-#nome2 {
-    display: none;
-}
-#nome h1,#nome2 .h2 {
-    margin-top: 20px;
-    width: 289px;
-    
-}
-/*fim*/
-
-}
-/*----------------------------------------------------------------------------------*/
-@media screen and (max-width: 830px) {
-}
 
 @media screen and (max-width: 753px) {
     
@@ -187,9 +199,10 @@ header{
         display: block;
     }
     /*nome-fim*/
-    
-    
-    /*FOOTER*/
+
+
+
+/*FOOTER*/
     footer {
         height: 320px !important;
 
@@ -212,20 +225,25 @@ header{
         margin: auto;
         margin-top: 25px;
     }
+   
+
+
+
+
     /*FIM*/
+
+
 }
-/*----------------------------------------------------------------------------------*/
-@media screen and (max-width: 600px) {
-}
-/*----------------------------------------------------------------------------------*/
+
+
 @media screen and (max-width: 514px) {
     #nome {
         margin: unset;
         margin-right: 20%;
     }
-
 }
-/*----------------------------------------------------------------------------------*/
+
+
 
 
 
@@ -318,25 +336,3 @@ footer .meio {
 
 
 /*FOOTER-FIM*/
-
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-
-
-.conteudo {
-    width: 100%;
-    height: 669px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
